@@ -1,0 +1,70 @@
+//
+//  unity.pch
+//  HGNewsDemo
+//
+//  Created by Qianfeng on 15/12/24.
+//  Copyright © 2015年 何光. All rights reserved.
+//
+
+#ifndef unity_pch
+#define unity_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* unity_pch */
+
+#define VIEW_WIDTH self.view.frame.size.width
+#define VIEW_HEIGHT self.view.frame.size.height
+
+//头条：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=0&page=1&vs=and412&retina=1&last_time=2015-12-22%2021:40
+#define ToutiaoUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=0&page=%ld&vs=and412&retina=1"
+
+
+//新闻：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=1&page=1&vs=and412&retina=1&last_time=2015-12-23%2010:10
+#define NewsUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=1&page=%ld&vs=and412&retina=1"
+
+
+//评测：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=2&page=1&vs=and412&retina=1&last_time=2015-12-23%2010:13
+#define PingceUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=2&page=%ld&vs=and412&retina=1"
+
+
+//手机：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=74&page=1&vs=and412&retina=1&last_time=2015-12-23%2010:20
+#define PhoneUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=74&page=%ld&vs=and412&retina=1"
+
+
+//数码：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=7&page=1&vs=and412&retina=1&last_time=2015-12-23%2011:02
+#define ShumaUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=7&page=%ld&vs=and412&retina=1"
+
+
+//电脑：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=210&page=1&vs=and412&retina=1&last_time=2015-12-23%2010:20
+#define ComputerUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=210&page=%ld&vs=and412&retina=1"
+
+
+//攒机：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=165&page=1&vs=and412&retina=1
+#define ZanjiUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=165&page=%ld&vs=and412&retina=1"
+
+
+//外设；http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=353&page=1&vs=and412&retina=1
+#define WaisheUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=353&page=%ld&vs=and412&retina=1"
+
+
+//导购：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=6&page=1&vs=and412&retina=1&last_time=2015-12-23%2011:15
+#define DaogouUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=6&page=%ld&vs=and412&retina=1"
+
+
+//热榜：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=8&page=1&vs=and412&retina=1
+#define RebangUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=8&page=%ld&vs=and412&retina=1"
+
+
+//直播：http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=15&page=1&vs=and412&retina=1&last_time=2015-12-23%2011:19
+#define ZhiboUrl @"http://lib.wap.zol.com.cn/ipj/docList/?v=6.0&class_id=15&page=%ld&vs=and412&retina=1"
+
+//资讯一：
+#define ZiXunUrl @"http://lib3.wap.zol.com.cn/index.php?c=Android_39o_SubcateList&noParam=1&vs=and412"
+
+
+//定义屏幕的宽-高
+#define ScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight   [UIScreen mainScreen].bounds.size.height
+
