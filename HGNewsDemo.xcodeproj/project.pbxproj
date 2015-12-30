@@ -41,6 +41,7 @@
 		BCC1A5D01C2FF0C6005B13AF /* 552cc6f91ea16_32.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC1A5CC1C2FF0C6005B13AF /* 552cc6f91ea16_32.png */; };
 		BCC1A5D11C2FF0C6005B13AF /* 552cc3b5eed94_32.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC1A5CD1C2FF0C6005B13AF /* 552cc3b5eed94_32.png */; };
 		BCC1A5D21C2FF0C6005B13AF /* 552cc6fb156d2_32.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC1A5CE1C2FF0C6005B13AF /* 552cc6fb156d2_32.png */; };
+		BCD4F4FD1C33B5A800E0A081 /* SBText.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD4F4FC1C33B5A800E0A081 /* SBText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		BCC1A5CC1C2FF0C6005B13AF /* 552cc6f91ea16_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 552cc6f91ea16_32.png; sourceTree = "<group>"; };
 		BCC1A5CD1C2FF0C6005B13AF /* 552cc3b5eed94_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 552cc3b5eed94_32.png; sourceTree = "<group>"; };
 		BCC1A5CE1C2FF0C6005B13AF /* 552cc6fb156d2_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 552cc6fb156d2_32.png; sourceTree = "<group>"; };
+		BCD4F4FB1C33B5A800E0A081 /* SBText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBText.h; sourceTree = "<group>"; };
+		BCD4F4FC1C33B5A800E0A081 /* SBText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBText.m; sourceTree = "<group>"; };
 		FFEBBF4F802FFB611C6D046C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -281,6 +284,8 @@
 				BC6C2A021C2D7AA700BAD70E /* ShouYeHeightCell.m */,
 				BC6C2A041C2D7F6F00BAD70E /* ShouYeTableViewCell.h */,
 				BC6C2A051C2D7F6F00BAD70E /* ShouYeTableViewCell.m */,
+				BCD4F4FB1C33B5A800E0A081 /* SBText.h */,
+				BCD4F4FC1C33B5A800E0A081 /* SBText.m */,
 				BCC1A5C31C2FD8F4005B13AF /* 跳转 */,
 			);
 			name = "首页";
@@ -544,6 +549,7 @@
 				BC4CF9AE1C2B989800C669BB /* ZiXunViewController.m in Sources */,
 				BC4CF9701C2B820B00C669BB /* AppDelegate.m in Sources */,
 				BC6C29FD1C2D6A8900BAD70E /* ShouYeController.m in Sources */,
+				BCD4F4FD1C33B5A800E0A081 /* SBText.m in Sources */,
 				BC4CF96D1C2B820B00C669BB /* main.m in Sources */,
 				BC6C2A031C2D7AA700BAD70E /* ShouYeHeightCell.m in Sources */,
 			);
